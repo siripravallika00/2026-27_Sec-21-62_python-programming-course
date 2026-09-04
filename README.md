@@ -1,2 +1,2 @@
-# 2026-27_Sec-21-62_python-programm
+# 2026-27_Student-62_python-programming-course
 I'm so excite to start my new journey and I'm super excited to learn the coding  
