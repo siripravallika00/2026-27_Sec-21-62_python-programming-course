@@ -48,3 +48,58 @@ a=p*(1+r/100)**t
 ci=a-p
 print("Compound Interest is:",ci)
 
+##first n natural numbers(8)
+n = int(input("Enter the value of N: "))
+sum = n * (n + 1) // 2
+print("Sum of first", n, "natural numbers:", sum)
+
+#arthemetic operation on two numbers(9)
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Floor Division:", a // b)
+print("Modulus:", a % b)
+print("Power:", a ** b)
+
+#relation operators(10) 
+a = 10
+b = 20
+print("AND:", a < b and b > 15)
+print("OR:", a > b or b > 15)
+print("NOT:", not(a > b))
+
+#logical operators(11)
+a=2
+result= a > 2 and  a<5 # logical and operator  
+print("Result of ",a,"> 2 and",a,"<5 is",result)
+#or(true)
+a=6
+result= a >2 or  a<5 # logical or operator
+print("Result of ",a,"> 2 or",a,"<5 is",result)
+#not(true)
+a=7 
+result= not(a >2 and  a<5) # logical not operator
+print("Result of not(",a,"> 2 and",a,"<5) is",result)
+
+#identity operatoes(12)
+a=[1,2,3]
+b=a 
+result=b is a #is membership operator
+print("result of ",b, "is not",a,"is :",result)
+a=[1,2,3]
+result=b is a # is membership operator
+print("result of",b, "is not ",a,"is :",result)  
+
+#membership operators(13)
+a=[1,2,3]
+b=a 
+result=b is a #is membership operator
+print("result of ",b, "is not",a,"is :",result)
+a=[1,2,3]
+result=b is a # is membership operator
+print("result of",b, "is not ",a,"is :",result)
+
+
