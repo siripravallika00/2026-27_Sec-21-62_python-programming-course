@@ -1,6 +1,7 @@
 #to check eligibility for voting using if-else
-age_in_years =int(input(enter the number:))
+age_in_years =int(input("Enter the number: "))
 if age_in_years >= 18:
     print(f"Age {age_in_years} years: Eligible to vote")
 else:
     print(f"Age {age_in_years} years: Not eligible to vote")
+    
