@@ -1,0 +1,6 @@
+#to swap two variables using tuple unpacking
+first_number = 90
+second_number = 50
+print("Before:", first_number, second_number)
+first_number, second_number = second_number, first_number
+print("After:", first_number, second_number)
